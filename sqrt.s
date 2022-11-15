@@ -1,0 +1,19 @@
+AREA PROGRAM,CODE,READONLY
+		ENTRY
+Main
+    LDR R2,=0X04
+	LDR R0,=0X01
+	LDR R1,=0X01
+loop1  SUB R2,R2,R0
+    CMP R2,#0
+	BEQ loop
+	ADD R0,#1
+	ADD R0,#1
+	ADD R1,#1
+	B loop1
+loop
+    LDR R3,=0X40000000
+	STR R1,[R3]
+STOP B STOP
+    END
+	
