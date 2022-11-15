@@ -1,0 +1,3 @@
+Dependencies for Project 'ACAAssignment1', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\32bitadd.s)(0x63724106)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529"--list .\listings\32bitadd.lst --xref -o .\objects\32bitadd.o --depend .\objects\32bitadd.d)
